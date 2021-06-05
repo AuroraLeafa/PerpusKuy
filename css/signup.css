@@ -1,0 +1,122 @@
+.teks-daftar{
+    position: absolute;
+width: 135px;
+height: 46px;
+left: 167px;
+top: 110px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 40px;
+line-height: 47px;
+
+color: #000000;
+}
+
+.posisi-form{
+    position: absolute;
+    width: 401px;
+    height: 0px;
+    left: 166px;
+    top: 222.09px;
+    
+    background: #FFFFFF;
+    background-color: #FFFFFF;
+    border: 0px solid #000000;
+}
+
+.tempat-logo{
+    position: relative;
+    width: 12%;
+
+    left: -555px;
+    top: -20px;
+  }
+
+  
+
+  .logo-facebook{
+    position: absolute;
+    width: 29px;
+    height: 28px;
+    left: 915px;
+    top: 416px;
+    
+    }
+    
+    .logo-google{
+
+        position: absolute;
+        width: 29px;
+        height: 28px;
+        left: 915px;
+        top: 330px;
+      }
+    
+      .logo-twitter{
+        position: absolute;
+        width: 30px;
+        height: 30px;
+        left: 915px;
+        top: 243px;
+
+        }
+
+.garis1{
+        position: absolute;
+        width: 183px;
+        height: 0px;
+        left: 735px;
+        top: 240px;
+        
+        border: 1px solid #000000;
+        transform: rotate(90deg);
+}
+
+.garis2{
+    position: absolute;
+    width: 183px;
+    height: 0px;
+    left: 735px;
+    top: 471px;
+    
+    border: 1px solid #000000;
+    transform: rotate(90deg);
+}
+
+.teks-atau{
+  position: relative;
+  left: 143px;
+  top: 340px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: 300;
+font-size: 25px;
+line-height: 29px;
+
+color: #000000;
+}
+
+.box{
+  position: absolute;
+width: 400px;
+height: 46px;
+
+
+border: 1px solid #000000;
+}
+
+.teks-kotak{
+  
+position: absolute;
+width: 342px;
+height: 30px;
+
+font-family: Roboto;
+font-size: 23px;
+line-height: 33px;
+
+color: #000000;
+}

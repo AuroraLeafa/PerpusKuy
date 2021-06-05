@@ -1,0 +1,63 @@
+body {
+    background-repeat: no-repeat;
+}
+
+/* Navbar */
+.navbar-brand {
+    font-family: Viga;
+    font-size: 16px; /* berfungsi untuk mengganti font default menjadi font viga dengan ukuran size 32pixel */
+}
+
+.rak img {
+    margin-top: 50%;
+    height: 300px;
+    width: 200px;
+}
+
+p {
+    font-family: Viga;
+    font-size: 20px;
+    text-align: center;
+}
+
+.footer {
+    margin-top: 180px;
+    background-color: #4d4646;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+
+.footer-style {
+    font-size:20px;
+    color: white;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover, a:active {
+    color: #ff9a00 ;
+}
+
+/* Utility */
+.tombol {
+    text-transform: uppercase;
+    border-radius: 20px;  /* berfungsi untuk membuat tombol "mulai" menjadi tidak begitu kotak */
+}
+
+/* Dekstop Version */
+@media (min-width: 992px) {
+    .nav-link {
+        text-transform: uppercase;
+        margin-right: 30px; /* untuk merapihkan tombol tombol yang berada di navbar dan margin right 30pixel berfungsi untuk memberi jarak antara satu tombol dengan tombol yang lain */
+    }
+
+    .nav-link:hover {
+        border-bottom: 3px solid #1751a1;
+        margin-bottom: -3px; /* membuat garis biru setiap kali kurson melwati navbar dan -3pixel berfungsi agar ketika kursor diarahkan kesalah satu tombol maka tombol tersebut tidak akan turun*/
+    }
+
+}

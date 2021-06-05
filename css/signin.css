@@ -1,0 +1,131 @@
+html,
+body {
+  height: 100%;
+}
+
+.background{
+  background-color:rgba(49, 49, 49, 0.25);
+}
+
+body {
+  display: flex;
+  align-items: center;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  background-color: #f5f5f5;
+}
+
+.form-signin {
+  width: 100%;
+  max-width: 330px;
+  padding: 15px;
+  margin: auto;
+}
+
+.form-signin .checkbox {
+  font-weight: 400;
+}
+
+.form-signin .form-floating:focus-within {
+  z-index: 2;
+}
+
+.form-signin input[type="email"] {
+  margin-bottom: -1px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+.form-signin input[type="password"] {
+  margin-bottom: 10px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+
+.rectangle-signin{
+  position: absolute;
+width: 50%;
+height: 80%;
+left: 355px;
+top: 70px;
+
+background: #FFFFFF;
+background-color: #FFFFFF;
+border: 1px solid #000000;
+box-sizing: border-box;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+backdrop-filter: blur(4px);
+}
+
+.tempat-logo{
+  position: absolute;
+  left: 225px;
+  top: 15px;
+}
+
+.border-like{
+position: absolute;
+width: 300px;
+height: 200px;
+top: 185px;
+}
+
+.lines{
+  position: absolute;
+  width: 150px;
+  height: 0px;
+  left: 400px;
+  top: 160px;
+  
+  border: 1px solid #000000;
+}
+
+.lines2{
+  position: absolute;
+  width: 150px;
+  height: 0px;
+  left: 150px;
+  top: 160px;
+  
+  border: 1px solid #000000;
+}
+
+.teks-atau{
+  position: absolute;
+width: 51px;
+height: 29px;
+left: 325px;
+top: 143px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: 300;
+font-size: 25px;
+line-height: 29px;
+
+color: #000000;
+}
+
+.logo-facebook{
+position: absolute;
+width: 40px;
+height: 40px;
+left: 205px;
+top: 95px;
+}
+
+.logo-google{
+  position: absolute;
+  width: 45px;
+  height: 45px;
+  left: 330px;
+  top: 95px;
+  }
+
+  .logo-twitter{
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    left: 460px;
+    top: 95px;
+    }
